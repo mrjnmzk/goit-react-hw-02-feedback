@@ -15,8 +15,8 @@ const Button = ({ nameBtn, onLeaveFeedback }) => {
 };
 
 Button.propTypes = {
-  nameBtn: PropTypes.string.isRequired,
-  onLeaveFeedback: PropTypes.func.isRequired,
+  nameBtn: PropTypes.string,
+  onLeaveFeedback: PropTypes.func,
 };
 
 export default Button;
